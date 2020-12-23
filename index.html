@@ -4,10 +4,22 @@
 <head>
     <title>WEB2 - CSS</title>
     <meta charset="utf-8">
-    <style>
+    <style>        
+        /*selector*/
+        #active {
+            color: red;
+        }
+        .saw {
+            color: gray;
+        }
+        h1 {
+            text-align: center;
+            font-size: 100px;
+        }
         a {
-            color: dimgrey;
+            color: black;
             text-decoration: none;
+            font-size: 30px;
         }
     </style>
 </head>
@@ -16,8 +28,8 @@
     <h1><a href="index.html">WEB</a></h1>
 
     <ol>
-        <li><a href="index.html">HTML</a></li>
-        <li><a href="index.html" style="color: red; text-decoration: underline;">CSS</a></li>
+        <li><a href="index.html" class="saw">HTML</a></li>
+        <li><a href="index.html" class="saw" id="active">CSS</a></li>
         <li><a href="index.html">JavaScript</a></li>
     </ol>
     <h2>CSS</h2>
